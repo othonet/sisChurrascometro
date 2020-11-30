@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: #333 ;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15vh 60vh 25vh;
+    gap: 0px 0px;
+    grid-template-areas:
+      "header header header header"
+      "main main main main"
+      "footer footer footer footer";
+  }
+  
+  .header { grid-area: header; 
+
+    text-align: center;
+    padding: 35px;
+    text-transform: uppercase;
+
+}
+  
+  .main { grid-area: main; 
+
+    padding: 10px;
+    padding-top: 80px;
+
+}
+  
+  .footer { grid-area: footer; 
+
+    background-color: rgb(255, 196, 0);
+    text-align: center;
+    padding: 18px;
+
+}
+
+input{
+    width: 100% ;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.171);
+    transition: all 100ms linear; 
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #4b6bb709;
+}
+
+input::-webkit-input-placeholder  { text-align: center; }
+input:-moz-placeholder { text-align: center; }
+textarea:-moz-placeholder { text-align: center; }
+
+input:focus{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(255, 196, 0);
+}
+
+button{
+    width: 100%;
+    padding: 40px;
+    font-size: 35px;
+    font-weight: 100;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    transition: all 80ms linear; 
+    color: rgb(255, 255, 255);
+    
+
+    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+
+}
+
+button:focus{
+    outline: none;
+}
+
+button:active{
+    background-color: rgb(255, 196, 0);
+    color: white;
+}
+
+.resultados{
+    font-size: 26px;
+    text-transform: uppercase;
+    
+}
+
+footer{
+    padding: 20px;
+}
+
+.icones:hover{
+    filter: invert();
+}
+
+#status{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #182848;
+}
+  
