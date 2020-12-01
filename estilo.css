@@ -13,7 +13,7 @@ body{
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 15vh 65vh 33vh;
+    grid-template-rows: 15vh 70vh 33vh;
     gap: 0px 0px;
     grid-template-areas:
       "header header header header"
