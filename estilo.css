@@ -13,7 +13,7 @@ body{
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 15vh 60vh 25vh;
+    grid-template-rows: 15vh 65vh 33vh;
     gap: 0px 0px;
     grid-template-areas:
       "header header header header"
@@ -40,7 +40,6 @@ body{
 
     background-color: rgb(255, 196, 0);
     text-align: center;
-    padding: 18px;
 
 }
 
@@ -97,11 +96,8 @@ button:active{
 .resultados{
     font-size: 26px;
     text-transform: uppercase;
+    padding: 10px;
     
-}
-
-footer{
-    padding: 20px;
 }
 
 .icones:hover{
@@ -110,6 +106,7 @@ footer{
 
 #status{
     font-size: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
     text-transform: uppercase;
     color: #182848;
