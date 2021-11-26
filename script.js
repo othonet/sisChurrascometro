@@ -29,10 +29,9 @@ function calcular() {
         resultado.style.display = 'flex';
 
 
-        resultado.innerHTML = `<p>🥩 <strong  class="resultados">Carne: ${qtdTotalDeCarne / 1000}Kgs</strong>`
-        resultado.innerHTML += `<p>🍹 <strong class="resultados">Outras bebidas: ${Math.ceil(qtdTotalDeBebida / 2000)}L </strong>`
-        resultado.innerHTML += `<p>🍻 <strong class="resultados">Cervejas: ${Math.ceil(qtdTotalDeCerveja / 250)}unid</strong>`
-
+        resultado.innerHTML = `<p>🥩 <strong  class="resultados">Carne: ${qtdTotalDeCarne / 1000} Kgs</strong>`
+        resultado.innerHTML += `<p>🍹 <strong class="resultados">Bebidas não alcoólicas: ${Math.ceil(qtdTotalDeBebida / 2000)} L </strong>`
+        resultado.innerHTML += `<p>🍻 <strong class="resultados">Cervejas: ${Math.ceil(qtdTotalDeCerveja / 250)} unid</strong>`
     }
 }
 
