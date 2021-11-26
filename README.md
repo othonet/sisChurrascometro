@@ -1,3 +1,2 @@
-Demo do sisteminha:
-
-https://othonet.github.io/sisChurrascometro/
+Clique para conferir o sisteminha:
+<a href="https://othonet.github.io/sisChurrascometro/" target="_blank" />🍖🍺 Churrascômetro</a>
