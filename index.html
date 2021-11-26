@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,34 +9,31 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="shortcut icon" href="images/favicon.png" />
 </head>
+
 <body>
-    
-    <div class="grid-container">
+
+    <div class="container">
         <div class="header">
-            <img src="images/logotipo.png" alt="Logotipo" width="300">
-            <br>
-            <small>Desenvolvido por <strong>Othon</strong>Felipe</small>
+            <img src="logo.png" alt="Logotipo" width="300">
         </div>
+
         <div class="main">
-                <input type="number" id="adultos" placeholder="😎 Qtd. de adultos">
-                <input type="number" id="criancas" placeholder="👶 Qtd. de crianças">
-                <input type="number" id="duracao" placeholder="⏳ Duração(H)">
-                <button onclick=" calcular() " >Calcular</button>
-            </div>
+            <input type="number" id="adultos" placeholder="😎 Qtd. de adultos">
+            <input type="number" id="criancas" placeholder="👶 Qtd. de crianças">
+            <input type="number" id="duracao" placeholder="⏳ Duração(H)">
+            <button onclick=" calcular() ">Calcular</button>
+        </div>
+
+        <div id="resultado">
+            
+        </div>
 
         <div class="footer">
-            <h1 id="status"></h1>
-            <div class="resultados" id="resultado">
-                Aguardando cálculo...
-            </div>
-
+           <span>Othon Felipe - Desenvolvedor Web</span>
         </div>
-
-
     </div>
-    
-
 
     <script src="script.js"></script>
 </body>
+
 </html>
